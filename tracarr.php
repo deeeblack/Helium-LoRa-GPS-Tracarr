@@ -14,6 +14,6 @@ $lat=$data["latitude"];
 
 $lon=$data["longitude"];
 
-$page = file_get_contents("http://67.219.110.154:5055/?id=$id&lat=$lat&lon=$lon");
+$page = file_get_contents("http://xxx.xxx.xxx.xxx:5055/?id=$id&lat=$lat&lon=$lon");
 
 ?>
