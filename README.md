@@ -26,6 +26,14 @@ function Decoder(bytes, port) {
 }
 ```
 
+## STEP 3.
+Create a new 'http' Helium Integration.
+  - The endpoint should be the location of where you are hosting the PHP script that will parse your devices data and send it to Tracarr.
+  - You can use a simple webserver to host the PHP script. As long as its accessible on the internet it should work.
+  - A Copy of the PHP script I used is in the files. tracarr.php
+
+
+
 ## OsmAnd Protocol
 https://www.traccar.org/osmand/
 
