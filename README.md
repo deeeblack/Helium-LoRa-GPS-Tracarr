@@ -43,7 +43,7 @@ Connect the 'Flows' in Helium console.
 
 ## STEP 5.
 Setup a new device in Traccar.
-  - In Tracarr add new device, give it a name and under 'Identifier' you need to use the 'ID' of the device from console. It will be a sring similar to: c8cd403d-a2ea-4395-885b-deefb7f27711
+  - In Tracarr add new device, give it a name and under 'Identifier' you need to use the 'ID' of the device from console. It will be a string similar to: ***c8cd403d-a2ea-4395-885b-deefb7f27711***
   - You will also see this device ID come up in the Tracarr logs if you are not sure.
   
 ## STEP 6. 
