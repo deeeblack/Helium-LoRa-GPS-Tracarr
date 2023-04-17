@@ -1,4 +1,4 @@
-# LoRa-GPS-Tracarr
+# Helium-LoRa-GPS-Tracarr
 How to get Helium LoRaWan GPS Tracker data into Tracarr.
 
 
