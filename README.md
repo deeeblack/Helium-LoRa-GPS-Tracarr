@@ -57,11 +57,11 @@ Test device dataflow. You will be able to see in console when it receives data a
   https://www.traccar.org/osmand/
 
   ### PHP Script.
-    - tracarr.php
+   - tracarr.php
   
   ### Helium Console Account 
-    - Free account, max 10 devices. ***Helium is looking to change to a Chirpstack LNS. This will eventually nullify this process when these changes happen.***
+   - Free account, max 10 devices. ***Helium is looking to change to a Chirpstack LNS. This will eventually nullify this process when these changes happen.***
   
   ### Vultr VPS 
-    - Hosting Tracarr Server.
-    - web server hosting PHP file to parse data from Console to Tracarr.
+   - Hosting Tracarr Server.
+   - web server hosting PHP file to parse data from Console to Tracarr.
