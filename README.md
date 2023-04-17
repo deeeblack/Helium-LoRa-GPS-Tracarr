@@ -3,16 +3,16 @@ Helium LoRaWan GP Tracker data into Tracarr
 
 
 
-# STEP 1.
+## STEP 1.
 This is a test
 
 
-# STEP 2.
+## STEP 2.
 Another test
 
 
-# OsmAnd Protocol
+## OsmAnd Protocol
 https://www.traccar.org/osmand/
 
-# PHP Script
+## PHP Script
 tracarr.php
