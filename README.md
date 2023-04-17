@@ -6,3 +6,5 @@ This is a test
 
 #STEP 2.
 Another test
+
+**This is bold text**
