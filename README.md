@@ -52,7 +52,7 @@ Test device dataflow. You will be able to see in console when it receives data a
 
 
 
-## Resources Used.
+## RESOURCES USED.
   ### OsmAnd Protocol.
   https://www.traccar.org/osmand/
 
