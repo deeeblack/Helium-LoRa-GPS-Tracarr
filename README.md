@@ -3,19 +3,19 @@ How to get Helium LoRaWan GPS Tracker data into Tracarr.
 
 
 ### Data Flow
-Sensor (GPS Tracker) > Helium Console > Decoder > Http Integration > PHP script > OsmAnd > Tracarr
+GPS Tracker > Helium Console > Decoder > http Integration > PHP script > OsmAnd > Tracarr
 
 
 ## STEP 1.
 On-board LoRaWAN tracker to Helium console.
   - Either Get DevEUI, AppEUI and App Key from Helium console and configure LoRaWan Tracker to suit, or insert from Tracker to Console. Usually I just generate them from     Console and change my device.
-  - Set Region of the device to either AU915-6 or AS923-1 for Dual Plan in Australia, **(This is going to change as at 18th April 23 for Helium, they will revert back to      AU915 FSB2.)**
+  - Set Region of the device to either AU915 Sub Band 6 or AS923-1 for Dual Plan in Australia, **(This is going to change as at 18th April 23 for Helium, they will revert back to      AU915 FSB2.)**
   - Confirm Join/Accept request successful by looking at your device in console or via serial connection to device.
 
 
 ## STEP 2.
 Link your Device to a Decoder (Function) and then an Integration.
-  - Create a new 'Çustom' Decoder in the 'Functions' area of Console.
+  - Create a new 'Custom' Decoder in the 'Functions' area of Console.
   - Copy the following snippet into the 'Custom Script' section of the decoder
 
 ```
