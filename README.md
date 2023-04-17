@@ -1,5 +1,8 @@
 # LoRa-GPS-Tracarr
-Helium LoRaWan GPS Tracker data into Tracarr.
+How to get Helium LoRaWan GPS Tracker data into Tracarr.
+
+
+### Data Flow
 Sensor (GPS Tracker) > Helium Console > Decoder > Http Integration > PHP script > OsmAnd > Tracarr
 
 
