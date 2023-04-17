@@ -51,10 +51,11 @@ Test device dataflow. You will be able to see in console when it receives data a
   https://www.traccar.org/osmand/
 
   ### PHP Script.
-  tracarr.php
+    - tracarr.php
   
-  ### Helium Console Account (Free 10 devices).
+  ### Helium Console Account 
+   - Free 10 devices
   
-  ### Vultr VPS hosting Tracarr Server.
-  
-  ### Vultr VPS web server hosting PHP file to parse data from Console to Tracarr.
+  ### Vultr VPS 
+    - Hosting Tracarr Server.
+    - web server hosting PHP file to parse data from Console to Tracarr.
