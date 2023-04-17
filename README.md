@@ -30,12 +30,31 @@ function Decoder(bytes, port) {
 Create a new 'http' Helium Integration.
   - The endpoint should be the location of where you are hosting the PHP script that will parse your devices data and send it to Tracarr.
   - You can use a simple webserver to host the PHP script. As long as its accessible on the internet it should work.
-  - A Copy of the PHP script I used is in the files. tracarr.php
+  - A Copy of the PHP script I used is in the files. tracarr.php **You will need to edit the IP address to point to your Tracarr server.**
+  
+## STEP 4. 
+Connect the 'Flows' in Helium console.
+  - Under 'Flows', Connect the Device > Decoder > Integration.
+  - This will allow data to flow to the integration when it is receieved in console.
+
+## STEP 5.
+Setup a new device in Traccar.
+  - In Tracarr add new device, give it a name and under 'Identifier' you need to use the 'ID' of the device from console. It will be a sring similar to: c8cd403d-a2ea-4395-885b-deefb7f27711
+  - You will also see this device ID come up in the Tracarr logs if you are not sure.
+  
+## STEP 6. 
+Test device dataflow. You will be able to see in console when it receives data and if it is succesfully passed to the integration. The next check will be on the Tracarr logs to see if that particular device 'ID' is showing up. From here the device should populate in Tracarr.
 
 
+## Resources Used.
+  ### OsmAnd Protocol.
+  https://www.traccar.org/osmand/
 
-## OsmAnd Protocol
-https://www.traccar.org/osmand/
-
-## PHP Script
-tracarr.php
+  ### PHP Script.
+  tracarr.php
+  
+  ### Helium Console Account (Free 10 devices).
+  
+  ### Vultr VPS hosting Tracarr Server.
+  
+  ### Vultr VPS web server hosting PHP file to parse data from Console to Tracarr.
