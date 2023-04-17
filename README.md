@@ -46,6 +46,8 @@ Setup a new device in Traccar.
 Test device dataflow. You will be able to see in console when it receives data and if it is succesfully passed to the integration. The next check will be on the Tracarr logs to see if that particular device 'ID' is showing up. From here the device should populate in Tracarr.
 
 
+
+
 ## Resources Used.
   ### OsmAnd Protocol.
   https://www.traccar.org/osmand/
